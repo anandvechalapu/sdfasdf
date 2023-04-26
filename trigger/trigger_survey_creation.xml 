@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trigger>
+  <description>This trigger will create surveys with basic information, target users, criteria fields, and question and answer sections, so that user feedback can be collected and analyzed to improve the platform.</description>
+  <list>
+    <action>Create a survey from the Admin panel.</action>
+    <action>Select the Domain as India, USA, or Both from a dropdown list.</action>
+    <action>Add a Title and Description for the survey.</action>
+    <action>Set the Delay Time in seconds for the survey to appear.</action>
+    <action>Set the Status of the survey as Active or Inactive from a dropdown list.</action>
+    <action>Set the Survey State as Not Started, Started, Cancelled, or Completed from a dropdown list.</action>
+    <action>Select the Page Name or Location as Home, Profile, Search Post, Post detail, or Webinar Detail from a dropdown list.</action>
+    <action>Set the Start and End dates for the survey.</action>
+    <action>Select Target Users from All Users or Exclude Users from a dropdown list.</action>
+    <action>If the Admin selects Exclude Users, they should be able to create criteria to whom the survey will be shown.</action>
+    <action>If the Admin selects All Users, they should be able to create criteria to whom the survey will be shown.</action>
+    <action>Select the Specialty for the survey.</action>
+    <action>Select the Preferences for the survey.</action>
+    <action>If the Admin selects India, they should be able to select the country to show the survey to.</action>
+    <action>If the Admin selects USA, they should be able to select the region and city combination to show the survey to.</action>
+    <action>Send the survey to specific users by manually selecting them from a list of users.</action>
+    <action>Set up to 20 questions with a title and answer type of Single Choice, Multi Choice, Text, or Rating.</action>
+    <action>For Rating based answer types, the Admin should be able to provide a range of rating between 0 and 5.</action>
+    <action>Update survey details unless the survey has started.</action>
+    <action>Cancel the survey in mid-after it has started.</action>
+    <action>Delete the survey unless the survey has started.</action>
+    <action>View the survey report from the Admin panel.</action>
+    <action>See one view icon (Report) in the Admin panel in the survey listing.</action>
+    <action>Upon clicking the view icon, the system should redirect the Admin to the survey report page.</action>
+    <action>Check user response on particular questions.</action>
+    <action>If a question is Single/Multi choice/Text, the system should show the count of responses for a particular option.</action>
+    <action>Upon clicking the answer count, the system should show user details who respond (User basic details) in a separate popup box, including Name, Email, Phone, Speciality, and IP Address.</action>
+    <action>If a question is Rating type, the system should show the count of responses for a particular rating (1 to 3 or 5).</action>
+    <action>Upon clicking the answer count, the system should show user details who respond (User basic details) in a separate popup box, including Name, Email, Phone, Speciality, and IP Address.</action>
+  </list>
+</trigger>
